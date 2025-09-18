@@ -39,7 +39,7 @@ It’s designed to be simple yet demonstrate **real-world engineering practices*
 
 ## 📂 Project Structure
 
-
+```
 flask-taskboard/
 ├─ app.py               # Flask app & route handlers
 ├─ db.py                # DB connection, init, teardown helpers
@@ -52,7 +52,7 @@ flask-taskboard/
 ├─ static/
 │  └─ style.css
 └─ taskboard.db         # Auto-generated on first run
-
+```
 ---
 
 ## 📐 Design Choices
