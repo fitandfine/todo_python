@@ -52,7 +52,7 @@ flask-taskboard/
 ├─ static/
 │  └─ style.css
 └─ taskboard.db         # Auto-generated on first run
-'''
+
 ---
 
 ## 📐 Design Choices
