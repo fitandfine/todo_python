@@ -44,7 +44,7 @@ It provides CRUD functionality, task status cycling, tagging, filtering, and opt
 ---
 
 ## 📂 Project Structure
-
+```
 flask-taskboard/
 ├─ app.py # Flask application and route handlers
 ├─ db.py # Database connection management and initialization
@@ -56,7 +56,7 @@ flask-taskboard/
 │ └─ confirm_delete.html # Delete confirmation page
 └─ static/
 └─ style.css # Minor styling overrides to Bootstrap
-
+```
 
 - **app.py:** Handles HTTP requests, form submissions, and template rendering  
 - **db.py:** Manages per-request SQLite connections, initialization, and teardown  
