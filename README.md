@@ -39,7 +39,7 @@ It’s designed to be simple yet demonstrate **real-world engineering practices*
 
 ## 📂 Project Structure
 
-```text
+```
 flask-taskboard/
 ├─ app.py               # Flask app & route handlers
 ├─ db.py                # DB connection, init, teardown helpers
