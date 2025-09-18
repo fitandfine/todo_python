@@ -88,7 +88,6 @@ flask-taskboard/
 
 ### Schema
 
-```sql
 CREATE TABLE IF NOT EXISTS tasks (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
@@ -97,7 +96,7 @@ CREATE TABLE IF NOT EXISTS tasks (
     due_date TEXT,
     status TEXT NOT NULL DEFAULT 'todo',
     created_at TEXT NOT NULL DEFAULT (datetime('now'))
-);'''
+);
 
 ---
 
