@@ -77,7 +77,7 @@ def init_db(app=None):
         )
         cur.execute(
             "INSERT INTO tasks (title, description, tag, due_date, status) VALUES (?,?,?,?,?)",
-            ("Fix README", "Improve README to match employer expectations.", "docs", None, "doing"),
+            ("Fix README", "Improve README to make it comprehensive.", "docs", None, "doing"),
         )
         conn.commit()
 
