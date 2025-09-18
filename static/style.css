@@ -1,0 +1,5 @@
+/* static/style.css -- small, tasteful customizations to improve the default bootstrap look */
+body { padding-bottom: 40px; }
+.task-card { min-height: 150px; }
+.card-text.text-truncate { max-height: 3.6em; overflow: hidden; }
+.card .text-muted { text-transform: capitalize; }
