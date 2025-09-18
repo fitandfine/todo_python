@@ -28,3 +28,29 @@ It’s designed to be simple yet demonstrate **real-world engineering practices*
 
 ---
 
+
+## Installation 
+- python -m venv venv
+- source venv/bin/activate  # On Windows: venv\Scripts\activate
+- pip install Flask
+- python3 app.py
+
+---
+
+## 📂 Project Structure
+
+```text
+flask-taskboard/
+├─ app.py               # Flask app & route handlers
+├─ db.py                # DB connection, init, teardown helpers
+├─ models.py            # Task class: all database operations
+├─ templates/
+│  ├─ base.html
+│  ├─ index.html
+│  ├─ task_form.html
+│  └─ confirm_delete.html
+├─ static/
+│  └─ style.css
+└─ taskboard.db         # Auto-generated on first run
+
+---
