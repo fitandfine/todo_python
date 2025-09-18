@@ -87,7 +87,7 @@ flask-taskboard/
 ## 🗄 Database Design
 
 ### Schema
-
+```
 CREATE TABLE IF NOT EXISTS tasks (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS tasks (
     status TEXT NOT NULL DEFAULT 'todo',
     created_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
-
+```
 ---
 
 ## Design Choices
